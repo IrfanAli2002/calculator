@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="cal">
+                <div class="inp">
+                    <h1>Calculator by Irfan</h1><br>
+                    <hr class="hr"><br>
+                    <input type="text" class="inps" disabled name="" id="inp"><br>
+                    <hr class="hr">
+                </div><br>
+                <div class="btn">
+                    <div class="d1">
+                        <button class="btns" onclick="getvalue(1)">1</button>
+                        <button class="btns" onclick="getvalue(2)">2</button>
+                        <button class="btns" onclick="getvalue(3)">3</button>
+                        <button class="btns" onclick="clearAll()">C</button>
+                    </div>
+                    <div class="d2">
+                        <button class="btns" onclick="getvalue(4)">4</button>
+                        <button class="btns" onclick="getvalue(5)">5</button>
+                        <button class="btns" onclick="getvalue(6)">6</button>
+                        <button class="btns" onclick="getvalue('+')">+</button>
+                    </div>
+                    <div class="d3">
+                        <button class="btns" onclick="getvalue(7)">7</button>
+                        <button class="btns" onclick="getvalue(8)">8</button>
+                        <button class="btns" onclick="getvalue(9)">9</button>
+                        <button class="btns" onclick="getvalue('-')">-</button>
+                    </div>
+                    <div class="d4">
+                        <button class="btns" onclick="getvalue(0)">0</button>
+                        <button class="btns" onclick="getvalue('/')">/</button>
+                        <button class="btns" onclick="calculate()">=</button>
+                    <button class="btns" onclick="getvalue('*')">*</button>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
